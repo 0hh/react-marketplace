@@ -8,7 +8,7 @@ import { UserContext } from "../App";
 class NewMarket extends React.Component {
   state = {
     name: "",
-    tags: ["Arts", "Web Dev", "Technology", "Crafts", "Entertainment"],
+    tags: ["Pharma", "Crop Sience", "Technology", "Marketing", "Personal"],
     selectedTags: [],
     options: [],
     addMarketDialog: false
@@ -90,7 +90,7 @@ class NewMarket extends React.Component {
             >
               <Dialog.Body>
                 <Form labelPosition="top">
-                  <Form.Item label="Add Market Name">
+                  <Form.Item label="Add a Title for your Ad*">
                     <Input
                       placeholder="Market Name"
                       trim={true}
@@ -102,7 +102,7 @@ class NewMarket extends React.Component {
                     <Select
                       multiple={true}
                       filterable={true}
-                      placeholder="Market Tags"
+                      placeholder="Ad Tags"
                       onChange={selectedTags => this.setState({ selectedTags })}
                       remoteMethod={this.handleFilterTags}
                       remote={true}

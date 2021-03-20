@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  background-color: #f4f8fb;
+  background-color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -80,8 +80,8 @@ body {
 
 .app-title {
   font-weight: 300;
-  font-size: 1.5rem;
-  color: #f90;
+  font-size: 2.5rem;
+  color: #7d33f6;
   margin: -3px;
 }
 
@@ -178,7 +178,7 @@ body {
 }
 
 .header {
-  color: var(--color-purple);
+  color: #7d33f6;
   font-size: 1.2rem;
   padding: 5px 10px;
   font-weight: 600;
@@ -193,6 +193,7 @@ body {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  background-color: #fff;
 }
 
 .market-title {
@@ -201,13 +202,13 @@ body {
   text-decoration-style: wavy;
   font-size: 2.5rem;
   display: flex;
-  color: var(--lightSquidInk);
+  color: #7d33f6;
   align-items: center;
 }
 
 .market-title-button {
   padding-left: 0.5em !important;
-  color: #f90 !important;
+  color: #7d33f6 !important;
   font-size: 30px !important;
 }
 
