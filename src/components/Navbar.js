@@ -2,7 +2,6 @@ import React from "react";
 import { Menu as Nav, Button } from "element-react";
 import { NavLink } from "react-router-dom";
 
-
 const Navbar = ({ user, handleSignout }) => (
   <Nav mode="horizontal" theme="dark" defaultActive="1">
     <div className="nav-container">
