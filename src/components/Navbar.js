@@ -16,6 +16,7 @@ const Navbar = ({ user, handleSignout }) => (
       {/* Navbar Items */}
       <div className="nav-items">
         <Nav.Item index="2">
+          {/* TODO username */}
           <span className="app-user">Signed in as {user.username}</span>
         </Nav.Item>
         <Nav.Item index="3">
